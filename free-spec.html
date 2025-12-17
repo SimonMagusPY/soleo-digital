@@ -1,0 +1,287 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Get Your Free Spec Image | Soleo Digital</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        cream: '#FAFAF8',
+                        charcoal: '#1A1A1A',
+                        warmgray: '#6B6B6B',
+                        accent: '#B8860B',
+                    }
+                }
+            }
+        }
+    </script>
+    <style>
+        body {
+            font-family: 'Inter', sans-serif;
+        }
+        html { scroll-behavior: smooth; }
+    </style>
+</head>
+<body class="bg-cream text-charcoal">
+
+    <!-- Navbar/Header -->
+    <header class="py-6 px-6 bg-cream/95 backdrop-blur-sm fixed w-full z-50 border-b border-gray-100">
+        <div class="max-w-6xl mx-auto flex justify-between items-center">
+            <div class="logo">
+                <a href="index.html" class="text-2xl font-semibold tracking-tight text-charcoal">
+                    Soleo<span class="text-warmgray font-light">Digital</span>
+                </a>
+            </div>
+            <nav class="hidden md:flex items-center space-x-8">
+                <a href="index.html#services" class="text-warmgray hover:text-charcoal transition text-sm font-medium">Services</a>
+                <a href="index.html#about" class="text-warmgray hover:text-charcoal transition text-sm font-medium">About</a>
+                <a href="#form" class="bg-charcoal hover:bg-warmgray text-cream font-medium py-2.5 px-6 rounded-full transition duration-300 text-sm">Get Started</a>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="min-h-screen flex items-center pt-24 pb-16 bg-cream">
+        <div class="max-w-6xl mx-auto px-6 grid lg:grid-cols-2 gap-16 items-center">
+            
+            <!-- Left: Text Content -->
+            <div class="text-left space-y-8">
+                <div class="inline-block bg-accent/10 text-accent px-4 py-2 rounded-full text-sm font-medium">
+                    100% Free • No Commitment
+                </div>
+                <h1 class="text-4xl md:text-5xl font-semibold text-charcoal leading-[1.1] tracking-tight">
+                    See What Your Products Could Look Like
+                </h1>
+                <p class="text-lg text-warmgray max-w-lg leading-relaxed">
+                    I will take one of your product images and generate a high-end concept for free. If you like it, we can talk about the rest of your catalog.
+                </p>
+                <div class="space-y-4 pt-4">
+                    <div class="flex items-start space-x-3">
+                        <svg class="w-6 h-6 text-accent flex-shrink-0 mt-0.5" fill="currentColor" viewBox="0 0 20 20"><path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"></path></svg>
+                        <span class="text-charcoal">Studio-quality transformation of your product</span>
+                    </div>
+                    <div class="flex items-start space-x-3">
+                        <svg class="w-6 h-6 text-accent flex-shrink-0 mt-0.5" fill="currentColor" viewBox="0 0 20 20"><path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"></path></svg>
+                        <span class="text-charcoal">Delivered within 48 hours</span>
+                    </div>
+                    <div class="flex items-start space-x-3">
+                        <svg class="w-6 h-6 text-accent flex-shrink-0 mt-0.5" fill="currentColor" viewBox="0 0 20 20"><path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"></path></svg>
+                        <span class="text-charcoal">No credit card or payment required</span>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- Right: Form -->
+            <div id="form" class="bg-white p-8 md:p-10 rounded-2xl shadow-xl border border-gray-100">
+                <h2 class="text-2xl font-semibold text-charcoal mb-2">Request Your Free Spec</h2>
+                <p class="text-warmgray mb-8">Fill out the form below and we'll create a sample image for your brand.</p>
+                
+                <form action="https://formspree.io/f/YOUR_FORM_ID" method="POST" class="space-y-6">
+                    
+                    <!-- Name -->
+                    <div>
+                        <label for="name" class="block text-sm font-medium text-charcoal mb-2">Your Name</label>
+                        <input 
+                            type="text" 
+                            id="name" 
+                            name="name" 
+                            required
+                            class="w-full px-4 py-3 rounded-lg border border-gray-200 focus:border-charcoal focus:ring-2 focus:ring-charcoal/10 outline-none transition"
+                            placeholder="Jane Smith"
+                        >
+                    </div>
+                    
+                    <!-- Email -->
+                    <div>
+                        <label for="email" class="block text-sm font-medium text-charcoal mb-2">Email Address</label>
+                        <input 
+                            type="email" 
+                            id="email" 
+                            name="email" 
+                            required
+                            class="w-full px-4 py-3 rounded-lg border border-gray-200 focus:border-charcoal focus:ring-2 focus:ring-charcoal/10 outline-none transition"
+                            placeholder="jane@yourbrand.com"
+                        >
+                    </div>
+                    
+                    <!-- Website URL -->
+                    <div>
+                        <label for="website" class="block text-sm font-medium text-charcoal mb-2">Your Website URL</label>
+                        <input 
+                            type="url" 
+                            id="website" 
+                            name="website" 
+                            required
+                            class="w-full px-4 py-3 rounded-lg border border-gray-200 focus:border-charcoal focus:ring-2 focus:ring-charcoal/10 outline-none transition"
+                            placeholder="https://yourbrand.com"
+                        >
+                        <p class="text-xs text-warmgray mt-2">We'll grab a product image from your site to transform</p>
+                    </div>
+                    
+                    <!-- Vibe Selection -->
+                    <div>
+                        <label for="vibe" class="block text-sm font-medium text-charcoal mb-2">What Vibe Do You Want?</label>
+                        <select 
+                            id="vibe" 
+                            name="vibe" 
+                            required
+                            class="w-full px-4 py-3 rounded-lg border border-gray-200 focus:border-charcoal focus:ring-2 focus:ring-charcoal/10 outline-none transition bg-white"
+                        >
+                            <option value="" disabled selected>Select a style...</option>
+                            <option value="minimalist">Minimalist — Clean, white, airy</option>
+                            <option value="luxury">Luxury — Rich, elegant, premium</option>
+                            <option value="nature">Nature — Organic, botanical, earthy</option>
+                            <option value="urban">Urban — Modern, edgy, metropolitan</option>
+                        </select>
+                    </div>
+                    
+                    <!-- Optional Notes -->
+                    <div>
+                        <label for="notes" class="block text-sm font-medium text-charcoal mb-2">Anything Else? <span class="text-warmgray font-normal">(Optional)</span></label>
+                        <textarea 
+                            id="notes" 
+                            name="notes" 
+                            rows="3"
+                            class="w-full px-4 py-3 rounded-lg border border-gray-200 focus:border-charcoal focus:ring-2 focus:ring-charcoal/10 outline-none transition resize-none"
+                            placeholder="Tell us about your brand, specific products, or any particular vision you have..."
+                        ></textarea>
+                    </div>
+                    
+                    <!-- Submit Button -->
+                    <button 
+                        type="submit"
+                        class="w-full bg-charcoal hover:bg-warmgray text-cream font-medium py-4 px-8 rounded-full transition duration-300 text-lg"
+                    >
+                        Get My Free Spec Image
+                    </button>
+                    
+                    <p class="text-xs text-center text-warmgray">
+                        By submitting, you agree to receive your free spec image via email. No spam, ever.
+                    </p>
+                </form>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- Social Proof / Trust Section -->
+    <section class="py-16 bg-white">
+        <div class="max-w-4xl mx-auto px-6 text-center">
+            <p class="text-warmgray text-sm uppercase tracking-widest mb-8">Why Store Owners Trust Us</p>
+            <div class="grid md:grid-cols-3 gap-8">
+                <div class="space-y-3">
+                    <div class="text-4xl font-semibold text-charcoal">48hr</div>
+                    <p class="text-warmgray">Average Turnaround</p>
+                </div>
+                <div class="space-y-3">
+                    <div class="text-4xl font-semibold text-charcoal">100%</div>
+                    <p class="text-warmgray">Label Accuracy</p>
+                </div>
+                <div class="space-y-3">
+                    <div class="text-4xl font-semibold text-charcoal">$0</div>
+                    <p class="text-warmgray">Studio Rental Costs</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Example Section -->
+    <section class="py-24 bg-cream">
+        <div class="max-w-6xl mx-auto px-6">
+            <div class="text-center mb-16">
+                <p class="text-accent font-medium text-sm tracking-widest uppercase mb-4">Example Transformation</p>
+                <h2 class="text-3xl md:text-4xl font-semibold text-charcoal mb-4">
+                    From Phone Snap to Marketing Asset
+                </h2>
+                <p class="text-warmgray max-w-2xl mx-auto">
+                    Here's what we did for Birch Babe — complete with accurate rosehip ingredients and golden hour lighting.
+                </p>
+            </div>
+            
+            <div class="grid md:grid-cols-2 gap-8">
+                <div class="bg-white p-4 rounded-2xl shadow-sm">
+                    <p class="text-warmgray text-sm uppercase tracking-widest mb-4 text-center">Before</p>
+                    <img src="birchbefore.png" alt="Before - Original Product Photo" class="w-full rounded-xl" />
+                </div>
+                <div class="bg-white p-4 rounded-2xl shadow-sm">
+                    <p class="text-accent text-sm uppercase tracking-widest mb-4 text-center">After</p>
+                    <img src="birchafter.png" alt="After - Professional Product Photography" class="w-full rounded-xl" />
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- FAQ Section -->
+    <section class="py-24 bg-white">
+        <div class="max-w-3xl mx-auto px-6">
+            <div class="text-center mb-16">
+                <h2 class="text-3xl md:text-4xl font-semibold text-charcoal mb-4">
+                    Common Questions
+                </h2>
+            </div>
+            
+            <div class="space-y-6">
+                <div class="border-b border-gray-200 pb-6">
+                    <h3 class="text-lg font-medium text-charcoal mb-2">Is this really free?</h3>
+                    <p class="text-warmgray">Yes, completely free. We create one spec image to show you exactly what we can do for your brand. No strings attached.</p>
+                </div>
+                <div class="border-b border-gray-200 pb-6">
+                    <h3 class="text-lg font-medium text-charcoal mb-2">How long does it take?</h3>
+                    <p class="text-warmgray">We typically deliver your free spec image within 48 hours of receiving your request.</p>
+                </div>
+                <div class="border-b border-gray-200 pb-6">
+                    <h3 class="text-lg font-medium text-charcoal mb-2">What if I don't like it?</h3>
+                    <p class="text-warmgray">No problem at all. This is a no-commitment offer. If it's not what you're looking for, you're under no obligation whatsoever.</p>
+                </div>
+                <div class="border-b border-gray-200 pb-6">
+                    <h3 class="text-lg font-medium text-charcoal mb-2">Will my product labels be accurate?</h3>
+                    <p class="text-warmgray">Absolutely. We're technical artists, not just prompt typists. We ensure every label, ingredient, and detail is photorealistic and accurate.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Final CTA -->
+    <section class="py-24 bg-charcoal">
+        <div class="max-w-4xl mx-auto px-6 text-center">
+            <h2 class="text-3xl md:text-4xl font-semibold text-cream mb-6">
+                Ready to See the Difference?
+            </h2>
+            <p class="text-gray-400 text-lg mb-10 max-w-2xl mx-auto">
+                Join the store owners who are elevating their product photography without the studio costs.
+            </p>
+            <a href="#form" class="inline-block bg-cream hover:bg-gray-200 text-charcoal text-lg font-medium py-4 px-10 rounded-full transition duration-300">
+                Get Your Free Spec Image
+            </a>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-cream border-t border-gray-200 py-12">
+        <div class="max-w-6xl mx-auto px-6">
+            <div class="flex flex-col md:flex-row justify-between items-center">
+                <div class="mb-6 md:mb-0">
+                    <a href="index.html" class="text-xl font-semibold tracking-tight text-charcoal">
+                        Soleo<span class="text-warmgray font-light">Digital</span>
+                    </a>
+                    <p class="text-warmgray text-sm mt-2">Studio-Quality Product Photography. Zero Studio Costs.</p>
+                </div>
+                <div class="flex space-x-8">
+                    <a href="index.html#services" class="text-warmgray hover:text-charcoal transition text-sm">Services</a>
+                    <a href="index.html#about" class="text-warmgray hover:text-charcoal transition text-sm">About</a>
+                    <a href="mailto:admin@soleodigital.com" class="text-warmgray hover:text-charcoal transition text-sm">Contact</a>
+                </div>
+            </div>
+            <div class="border-t border-gray-200 mt-8 pt-8 text-center">
+                <p class="text-warmgray text-sm">&copy; 2025 Soleo Digital. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+</body>
+</html>
